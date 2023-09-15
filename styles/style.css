@@ -61,21 +61,24 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 5px 70px;
-    height: 400px;
+    height: 500px;
 
 }
 .home::before{
     content: "";
     position: absolute;
-    background:url('../Images/Rectangle\ 9.png') no-repeat center center/cover;
+    background:url('../Images/Rectangle\ 9.png') no-repeat center center;
     height: 100%;
     width: 100%;
     z-index: -1;
     opacity: 0.9;
 }
 .H-primary{
-    font-size:3rem;
+    
+    font-size: 3rem;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
 
 
 }
@@ -86,5 +89,56 @@
     background-color: aquamarine;
     border: 5px solid gray;
     cursor: pointer;
+
+}
+/* servies-container Section */
+
+.servies-container{
+
+}
+.servises{
+    display: flex;
+    gap: 15px;
+
+}
+.box{
+    border: 2px solid rgba(10, 9, 10, 0.96);
+    background-color: beige;
+    margin: 30px;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.box img{
+    display: block;
+    margin: auto;
+}
+.flower-title{
+    display: flex;
+    justify-content: center;
+}
+
+/* Our helpline section */
+
+.helpline-imgs{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.helpline{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 34px 0;
+}
+.helpline::before{
+    content: "";
+    position: absolute;
+    background: url('../Images/Rectangle\ 9.png') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.9;
+    height: 30%;
+    width: 80%;
 
 }
