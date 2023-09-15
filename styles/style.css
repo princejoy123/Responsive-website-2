@@ -125,6 +125,10 @@
     justify-content: center;
     gap: 100px;
 }
+.helpline-imgs p:hover{
+    cursor: pointer;
+    color: blue;
+}
 .helpline{
     display: flex;
     justify-content: center;
@@ -141,4 +145,47 @@
     height: 30%;
     width: 80%;
 
+}
+
+/* Contact Section */
+
+.Contact{
+    opacity: .9;
+    background-color: aquamarine;
+    margin-top: 100px;
+}
+.Contact form{
+    width: 40%;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.form input, textarea{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 9px;
+
+}
+
+/* Footer Section */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    height: 100px;
+    font-size: 1rem;
 }
